@@ -29,20 +29,30 @@ function Layout() {
     <div>
       <main>
         <div className="grid">
-            <div data-aos="fade-up" data-aos-delay="200" className="gridItem">
-                <img src={img1} alt="img" />
+            <div data-aos="zoom-in" data-aos-delay="200" className="gridItem">
+                <img src={img1} alt="img" 
+                onMouseEnter={MouseEnter}
+                onMouseLeave={MouseLeave} />
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" className="gridItem">
-                <img src={img2} alt="img" />
+            <div data-aos="zoom-in" data-aos-delay="200" className="gridItem">
+                <img src={img2} alt="img" 
+                onMouseEnter={MouseEnter}
+                onMouseLeave={MouseLeave} />
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" className="gridItem">
-                <img src={img3} alt="img" />
+            <div data-aos="zoom-in" data-aos-delay="200" className="gridItem">
+                <img src={img3} alt="img" 
+                onMouseEnter={MouseEnter}
+                onMouseLeave={MouseLeave} />
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" className="gridItem">
-                <img src={img4} alt="img" />
+            <div data-aos="zoom-in" data-aos-delay="200" className="gridItem">
+                <img src={img4} alt="img" 
+                onMouseEnter={MouseEnter}
+                onMouseLeave={MouseLeave} />
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" className="gridItem">
-                <img src={img5} alt="img" />
+            <div data-aos="zoom-in" data-aos-delay="200" className="gridItem">
+                <img src={img5} alt="img" 
+                onMouseEnter={MouseEnter}
+                onMouseLeave={MouseLeave} />
              </div>
         </div>
       </main>
