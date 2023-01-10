@@ -29,27 +29,27 @@ function Layout() {
       <main>
         <div className={styles.grid}>
             <div data-aos="zoom-in" data-aos-delay="200" className={styles.gridItem}>
-                <img src={img1} alt="img" 
+                <img className={styles.photo} src={img1} alt="img" 
                 onMouseEnter={MouseEnter}
                 onMouseLeave={MouseLeave} />
             </div>
             <div data-aos="zoom-in" data-aos-delay="200" className={styles.gridItem}>
-                <img src={img2} alt="img" 
+                <img className={styles.photo} src={img2} alt="img" 
                 onMouseEnter={MouseEnter}
                 onMouseLeave={MouseLeave} />
             </div>
             <div data-aos="zoom-in" data-aos-delay="200" className={styles.gridItem}>
-                <img src={img3} alt="img" 
+                <img className={styles.photo} src={img3} alt="img" 
                 onMouseEnter={MouseEnter}
                 onMouseLeave={MouseLeave} />
             </div>
             <div data-aos="zoom-in" data-aos-delay="200" className={styles.gridItem}>
-                <img src={img4} alt="img" 
+                <img className={styles.photo} src={img4} alt="img" 
                 onMouseEnter={MouseEnter}
                 onMouseLeave={MouseLeave} />
             </div>
             <div data-aos="zoom-in" data-aos-delay="200" className={styles.gridItem}>
-                <img src={img5} alt="img" 
+                <img className={styles.photo} src={img5} alt="img" 
                 onMouseEnter={MouseEnter}
                 onMouseLeave={MouseLeave} />
              </div>
