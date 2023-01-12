@@ -15,17 +15,11 @@ main{
     'box4 box5 box3';
     gap: 1rem;
     width: 80%;
-    height: 80%;
+    height: 90%;
 }
-@media screen and (max-width: 768px){
-    .grid{
-        grid-template-areas:
-        'box1 box1'
-        'box2 box2'
-        'box3 box3'
-        'box4 box4'
-        'box5 box5';
-    }
+
+.btn{
+    display: none;
 }
 .gridItem{
     position: relative;
@@ -50,7 +44,13 @@ main{
     grid-area: box5;
 }
 
-
+.nmg{
+    grid-template-areas: 
+    'box1 box1 box3'
+    'box1 box1 box3'
+    'box4 box2 box3';
+    margin-top: -100px;
+}
 
 .photo{
     position: absolute;
@@ -72,3 +72,23 @@ main{
     background-color:linear-gradient(transparent, rgba(90, 30, 30, 0.6));
     z-index: 1;
 }
+@media screen and (max-width: 768px){
+    .grid{
+        grid-template-areas:
+        'box1 box1'
+        'box2 box2'
+        'box3 box3'
+        'box4 box4'
+        'box5 box5';
+    }
+    .btn{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.moreImg{
+        display: none;
+        margin-top: 50px;
+    }
